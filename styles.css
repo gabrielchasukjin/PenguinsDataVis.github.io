@@ -1,0 +1,116 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: #4a4e69;
+    color: white;
+}
+
+#networkG {
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #8d99ae;
+
+
+}
+
+img {
+    border-radius: 25px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    border-style: solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+  }
+
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    padding: 15px;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+.break{
+    border-radius: 25px;
+    height: 100px;
+}
+
+
+/* Pattern styles */
+.container {
+  display: table;
+  height: 800;
+  width: 100%;
+}
+
+.left-half {
+  position: absolute;
+  height:800;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  position: absolute;
+  height:800;
+
+  right: 0px;
+  width: 50%;
+}
+
+
+
+.penguinIntro{
+  padding-right: 100px;
+  padding: 15px;
+  line-height: 2;
+}
+
+.penguinOutro{
+  margin-right: 100px;
+  margin-left: 100px;
+  line-height: 2;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+}
